@@ -1,0 +1,272 @@
+.profile {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 261px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    padding: 2rem 3rem;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    color: #000000;
+    position: absolute;
+    inset: 33px 0 0px 1227px;
+    border-radius: 1rem;
+}
+
+.asasdasddd {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profileImg {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+    background-size: 180%;
+    border-radius: 100rem;
+    background-position: 45%;
+}
+
+
+
+.ddsdasdasd {
+    margin-top: 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+
+.setas img {
+    width: 3rem;
+
+}
+
+
+
+
+
+.setas {
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    width: 3rem;
+    margin: 3rem 5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+.profile p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.menu1,
+.menu3,
+.menu2 {
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.menu2-1:hover,
+.menu1:hover {
+    transform: scale(1.1);
+}
+
+.menu2-1 {
+    transition: .1s ease-in-out;
+}
+
+.menu1 p {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.menu1-img {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.menu1-img img {
+    width: 150px;
+}
+
+.menu2-1 img {
+    width: 8rem;
+}
+
+.menu2-1 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu2-1 h3 {
+    position: absolute;
+
+}
+
+.menu2-1-2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+.menu2-1-2 h3 {
+    height: 80%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.menu2-1-2 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 2rem;
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.menu2-1-2 img {
+    padding: 1rem;
+    max-width: 45px;
+    width: 100%;
+}
+
+.menu {
+
+    padding: 4% 15% 0;
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 10vw;
+}
+
+.menu2-1 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 2rem;
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+.menu1 {
+    transition: .1s ease-in-out;
+    cursor: pointer;
+    width: 40px;
+    height: 29rem;
+    background-color: black;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 3rem;
+}
+
+.menu1 {
+    width: 5vw;
+}
+
+
+
+
+
+
+@media(max-width:1366px) {
+    .menu {
+
+        padding: 2% 15% 0%;
+    }
+
+    .menu1 p {
+        margin: 0 0 1rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .menu1 {
+        height: 21rem;
+    }
+
+    .menu2 {
+        width: 100px;
+        height: 27rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

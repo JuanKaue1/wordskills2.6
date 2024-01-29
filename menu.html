@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldskils Paraíba</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+
+<body>
+    <style>
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+    <div class="headeratv">
+        <a href="./menu.html">
+            <img src="./img/300ppi/LOGO NEGATIVA.png" alt="" class="logo">
+        </a>
+
+        <div class="profile">
+            <div class="asasdasddd">
+                <div id="asdasd-asdasd" class="profileImg"></div>
+                <p id="asdasd-p" style="margin: 0;">Aluno ▼</p>
+            </div>
+            <div class="ddsdasdasd">
+                <a href="./tec.html">Acessar Resultados</a>
+                <a href="./cal.html">Agenda</a>
+                <a href="./menu2.html">Perfil do Competidor</a>
+                <a href="#">Configuração de Conta</a>
+                <a href="./login.html">Sair</a>
+            </div>
+        </div>
+
+    </div>
+    <main class="menu" style="padding: 4% 20%;">
+        <div class="menu1">
+            <div class="menu1-img">
+                <img src="./img/300ppi/LOGO POSITIVA.png" alt="" class="">
+            </div>
+            <p>
+                Treinador<br>
+                Michel Araújo
+            </p>
+            <p>
+                Aluno Competidor<br>
+                Juan Kauê
+            </p>
+            <p>
+                Unidade<br>
+                ORC / SL
+            </p>
+            <p>
+                Ocupação<br>
+                Técnologias Web
+            </p>
+        </div>
+        <div class="menu2">
+            <a href="./tec.html" class="menu2-1">
+                <img src="./img/300ppi/Ativo 45.png" alt="">
+                <p>Acessar<br>
+                    Resultados</p>
+            </a>
+            <a href="./menu2.html" class="menu2-1">
+                <img src="./img/300ppi/Ativo 48.png" alt="">
+                <p>Perfil do Aluno<br>
+                    competidor
+                </p>
+            </a>
+        </div>
+        <div class="menu2">
+            <a href="./cal.html" class="menu2-1">
+                <img src="./img/300ppi/Ativo 46.png" alt="">
+                <p>Agenda de<br>
+                    Provas e Eventos</p>
+            </a>
+            <a href="" class="menu2-1">
+                <img src="./img/300ppi/Ativo 47.png" alt="">
+                <p>Configurações de<br>
+                    Conta</p>
+            </a>
+        </div>
+    </main>
+    <a href="./index_login.html" class="setas" title="Voltar">
+        <img src="./img/300ppi/Ativo 49.png" alt="">
+    </a>
+    <script>
+        const profd1sile = document.querySelector('.profile');
+        const ddsdasdasd = document.querySelector('.ddsdasdasd');
+        const asdasd_asdasd = document.querySelector('#asdasd-asdasd');
+        const asdasd_p = document.querySelector('#asdasd-p');
+        const asasdasddd = document.querySelector('.asasdasddd');
+
+        profd1sile.addEventListener('mouseover', () => {
+            profd1sile.style.backgroundColor = "rgba(0, 0, 0, 1)";
+            ddsdasdasd.style.display = "flex"; profd1sile.style.height = "300px";
+
+            asdasd_asdasd.style.backgroundColor = "white";
+            asdasd_p.style.color = "white";
+        })
+
+        profd1sile.addEventListener('mouseout', () => {
+            asdasd_p.style.color = "black"; profd1sile.style.height = "30px";
+
+            asdasd_asdasd.style.backgroundColor = "black";
+            profd1sile.style.backgroundColor = "rgba(0, 0, 0, 0)";
+            ddsdasdasd.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
